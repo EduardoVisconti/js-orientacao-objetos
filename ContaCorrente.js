@@ -2,10 +2,8 @@ import { Cliente } from "./Cliente.js";
 
 export class ContaCorrente{
     static numeroDeContas = 0; //Sempre que criar uma nova conta, não seria criado um novo total, mantendo o valor correto.
-    agencia;
-    _cliente;
+
      // #saldo =0 https://github.com/tc39/proposal-class-fields#private-fields
-    _saldo = 0;
 
 
     set cliente(novoValor){
